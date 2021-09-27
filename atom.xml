@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>HomeForZhaolingxi</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-09-25T09:53:07.393Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Zhao Lingxi</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Empty</title>
+    <link href="http://example.com/2021/09/27/%E9%AD%94%E6%94%B9%E6%A8%A1%E6%9D%BF%E5%A4%87%E7%94%A8%E9%80%89%E6%8B%A9/"/>
+    <id>http://example.com/2021/09/27/%E9%AD%94%E6%94%B9%E6%A8%A1%E6%9D%BF%E5%A4%87%E7%94%A8%E9%80%89%E6%8B%A9/</id>
+    <published>2021-09-27T11:42:24.822Z</published>
+    <updated>2021-09-25T09:53:07.393Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="https-hexo-fluid-dev-com"><a href="#https-hexo-fluid-dev-com" class="headerlink" title="https://hexo.fluid-dev.com/"></a><a href="https://hexo.fluid-dev.com/">https://hexo.fluid-dev.com/</a></h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="-1"><a href="#-1" class="headerlink" title=""></a></h2><h2 id="-2"><a href="#-2" class="headerlink" title=""></a></h2><h2 id="-3"><a href="#-3" class="headerlink" title=""></a></h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;https-hexo-fluid-dev-com&quot;&gt;&lt;a href=&quot;#https-hexo-fluid-dev-com&quot; class=&quot;headerlink&quot; title=&quot;https://hexo.fluid-dev.com/&quot;&gt;&lt;/a&gt;&lt;a href=&quot;ht</summary>
+      
+    
+    
+    
+    
+    <category term="Empty" scheme="http://example.com/tags/Empty/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HEXO的bug记录</title>
+    <link href="http://example.com/2021/09/27/HEXO%E7%9A%84bug%E8%AE%B0%E5%BD%95/"/>
+    <id>http://example.com/2021/09/27/HEXO%E7%9A%84bug%E8%AE%B0%E5%BD%95/</id>
+    <published>2021-09-27T11:42:24.806Z</published>
+    <updated>2021-09-25T14:16:26.775Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="报错代码："><a href="#报错代码：" class="headerlink" title="报错代码："></a>报错代码：</h1><p>extends includes/layout.pug block content include ./includes/mixins/post-ui.pug #recent-posts.recent-posts +postUI include includes/pagination.pug</p><h1 id="解决方式：在hexo目录下打开git-bash，输入命令："><a href="#解决方式：在hexo目录下打开git-bash，输入命令：" class="headerlink" title="解决方式：在hexo目录下打开git bash，输入命令："></a>解决方式：在hexo目录下打开git bash，输入命令：</h1><p>cnpm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive<br>hexo clean<br>hexo g<br>hexo s</p>]]></content>
+    
+    
+    <summary type="html">Empty</summary>
+    
+    
+    
+    <category term="Empty" scheme="http://example.com/categories/Empty/"/>
+    
+    
+    <category term="HEXO" scheme="http://example.com/tags/HEXO/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Empty</title>
+    <link href="http://example.com/2021/09/27/Empty/"/>
+    <id>http://example.com/2021/09/27/Empty/</id>
+    <published>2021-09-27T11:42:24.801Z</published>
+    <updated>2021-09-25T14:15:56.915Z</updated>
+    
+    
+    <summary type="html">Empty</summary>
+    
+    
+    
+    <category term="Empty" scheme="http://example.com/categories/Empty/"/>
+    
+    
+    <category term="Empty" scheme="http://example.com/tags/Empty/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2021/09/27/hello-world/"/>
+    <id>http://example.com/2021/09/27/hello-world/</id>
+    <published>2021-09-27T11:20:43.679Z</published>
+    <updated>1985-10-26T08:15:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>如何在博客中插入图片</title>
+    <link href="http://example.com/2021/09/25/MD%E8%AF%AD%E6%B3%95%E7%9A%84%E5%9F%BA%E7%A1%80%E8%A7%A3%E9%87%8A/"/>
+    <id>http://example.com/2021/09/25/MD%E8%AF%AD%E6%B3%95%E7%9A%84%E5%9F%BA%E7%A1%80%E8%A7%A3%E9%87%8A/</id>
+    <published>2021-09-25T08:38:00.000Z</published>
+    <updated>2021-09-25T09:38:52.291Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里显示正文<br><em>这里显示的是斜体</em><br><em>这里显示的倾斜体</em><br><strong>这里显示的文字是加粗了</strong><br><em><strong>这里的文字是倾斜加粗的</strong></em><br><del>这里的文字是加下划线的</del></p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>这个写法和 <strong>文字</strong>效果是一样的</p><p><img src="/%E7%9F%AD%E8%A7%86%E9%A2%91%E5%B0%81%E9%9D%A2/083.jpg" alt="插入下一层级目录下的图片"><br><img src="/%E5%8E%9F%E5%88%9B%E6%89%81%E5%B9%B3%E6%96%B9%E7%9B%92-%E9%80%90%E6%B5%AA%E5%AD%97%E4%BD%93.jpg" alt="插入同级目录下的图片"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这里显示正文&lt;br&gt;&lt;em&gt;这里显示的是斜体&lt;/em&gt;&lt;br&gt;&lt;em&gt;这里显示的倾斜体&lt;/em&gt;&lt;br&gt;&lt;strong&gt;这里显示的文字是加粗了&lt;/strong&gt;&lt;br&gt;&lt;em&gt;&lt;strong&gt;这里的文字是倾斜加粗的&lt;/strong&gt;&lt;/em&gt;&lt;br&gt;&lt;del&gt;这里的文字是加</summary>
+      
+    
+    
+    
+    
+    <category term="博客 MD 语法" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2-MD-%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从零开始的hexo主题编写</title>
+    <link href="http://example.com/2021/09/25/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84hexo%E4%B8%BB%E9%A2%98%E7%BC%96%E5%86%99/"/>
+    <id>http://example.com/2021/09/25/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84hexo%E4%B8%BB%E9%A2%98%E7%BC%96%E5%86%99/</id>
+    <published>2021-09-25T08:38:00.000Z</published>
+    <updated>2021-09-25T09:43:44.127Z</updated>
+    
+    <content type="html"><![CDATA[<p>从零开始制作 Hexo 主题<br>Friday, December 16, 2016<br>写在前面</p><p>本文将会从零开始开发一个简单的博客主题。样式主要参考 Hexo theme 中的 Noise 主题。</p><p>开始之前你需要了解：</p><pre><code>模板引擎CSS预处理器Hexo 文档</code></pre><p>本文使用的模板引擎为 ejs，使用的 CSS 预处理器为 stylus。这也是 hexo 项目预装了的 render 插件，如果想使用其他模板引擎或者其他 CSS 预处理器，可以安装相对应的 render 插件。例如我的 Even 主题使用的是 Swig 与 SCSS。</p><p>本文的代码： theme-example 。<br>目录结构</p><p>主题目录结构以自带的 landscape 主题为例：</p><p>.<br>├── languages  语言文件，用于国际化<br>├── layout     页面模板文件<br>├── scripts    Hexo 脚本<br>└── source     主题资源文件，包括页面样式，脚本，字体等</p><p>我们在 themes 中新建 theme-example 文件夹，然后在 theme-example 中按照 landscape 主题的目录结构新建 languages，layout，scripts 与 source 文件夹。<br>创建布局模板</p><p>在 layout 中创建 index.ejs 文件，首页将会使用该布局模板生成 HTML 文件。</p><p>layout/index.ejs:</p><html>  <head>    <meta http-equiv="content-type" content="text/html; charset=utf-8">    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">    <title>Home</title>  </head>  <body>    <h1>Hello Word</h1>  </body></html><p>修改站点配置文件中的主题配置，使用我们刚刚创建的 theme-example 主题：</p><h1 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h1><h2 id="Plugins-https-hexo-io-plugins"><a href="#Plugins-https-hexo-io-plugins" class="headerlink" title="Plugins: https://hexo.io/plugins/"></a>Plugins: <a href="https://hexo.io/plugins/">https://hexo.io/plugins/</a></h2><h2 id="Themes-https-hexo-io-themes"><a href="#Themes-https-hexo-io-themes" class="headerlink" title="Themes: https://hexo.io/themes/"></a>Themes: <a href="https://hexo.io/themes/">https://hexo.io/themes/</a></h2><p>theme: theme-example</p><p>运行 hexo server –debug 以 debug 模式开启 Hexo 本地服务器预览，访问 <a href="http://localhost:4000/%E3%80%82">http://localhost:4000/。</a></p><p>Hello World</p><p>添加页面导航</p><p>现在我们需要在页面中添加导航，由于导航不单单会在首页出现，所以我们在 layout 中创建共用的布局文件 layout.ejs， 同时创建 _partial/head.ejs 保存 HTML 的 head 以及创建 _partial/header.ejs 文件，编写页面导航部分。</p><p>layout/layout.ejs:</p><!DOCTYPE html><html>  <%- partial('_partial/head') %>  <body>    <%- partial('_partial/header') %>    <main class="main">      <%- body %>    </main>  </body></html><p>layout.ejs 文件通过 partial() 函数来包含其他文件，使得我们能够更好的组织代码。详见 Templates | Hexo。</p><p>layout/_partial/head.ejs:</p><head>  <meta http-equiv="content-type" content="text/html; charset=utf-8">  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">  <title><%= config.title %></title></head><p>这里使用了 config 变量，该变量包含的是站点配置（即站点根目录下 _config.yml 中的配置）。除此之外，Hexo 还提供了许多变量可在模板中使用，详见 Variables | Hexo。</p><p>layout/_partial/header.ejs:</p><header class="header">  <div class="blog-title">    <a href="<%- url_for() %>" class="logo"><%= config.title %></a>  </div>  <nav class="navbar">    <ul class="menu">      <li class="menu-item">        <a href="/" class="menu-item-link">Home</a>      </li>      <li class="menu-item">        <a href="/archives" class="menu-item-link">Archive</a>      </li>    </ul>  </nav></header><p>接着我们清空 index.ejs 中的内容，并添加 <h2>Hello World</h2>。在 layout 目录下的 index.ejs 会自动继承 layout.ejs，并将其中的内容填入 &lt;%- body %&gt; 的位置。我们将得到一个有导航菜单的 Hello World 页面。</p><p>Index</p><p>添加主题配置文件</p><p>实际上我们需要让导航菜单根据我们的需要显示不同的项，上面这种写法不方便修改。所以我们会在主题的配置文件中添加导航菜单的配置。在 thmem-demo 下新建主题的配置文件 _config.yml，在其中添加需要配置的字段。然后可以通过 theme 这个变量来拿到该配置文件中的配置。</p><p>theme-example/_config.yml:</p><p>menu:<br>  Home: /<br>  Archives: /archives</p><p>这样我们就可以在 header.ejs 中使用 theme.menu 获取到导航菜单的设置。将 header.ejs 修改为：</p><header class="header">  <div class="blog-title">    <a href="<%- url_for() %>" class="logo"><%= config.title %></a>  </div>  <nav class="navbar">    <ul class="menu">      <% for (name in theme.menu) { %>        <li class="menu-item">          <a href="<%- url_for(theme.menu[name]) %>" class="menu-item-link"><%= name %></a>        </li>      <% } %>    </ul>  </nav></header><p>当需要在导航中添加链接的时候就可以在配置文件中直接添加，例如添加 Github 的链接：</p><p>menu:<br>  Home: /<br>  Archives: /archives<br>  Github: <a href="https://github.com/ahonn">https://github.com/ahonn</a></p><p>除此之外还可以添加其他需要的配置，例如 RSS，评论等等。<br>添加首页文章列表</p><p>接着我们完善首页的模板，使其能够显示文章列表。前面已经说过 Hexo 提供了各种有用的变量，在这里将会使用到 page 这个变量。page 会根据不同的页面拥有不同的属性。具体有什么属性，可以获取到哪些数据可以查看这里。</p><p>那么这里我们会使用 page 变量的 posts 属性拿到文章数据的集合。编辑 index.ejs 文件：</p><section class="posts">  <% page.posts.each(function (post) { %>    <article class="post">      <div class="post-title">        <a class="post-title-link" href="<%- url_for(post.path) %>"><%= post.title %></a>      </div>      <div class="post-content">        <%- post.content %>      </div>      <div class="post-meta">        <span class="post-time"><%- date(post.date, "YYYY-MM-DD") %></span>      </div>    </article>  <% }) %></section><p>从 page.posts 中获取单篇文章的数据，并获取文章的标题，内容等数据填充到模板中。处理文章创建时间的时候使用了 date() 函数，这是 Hexo 提供的时间处理的辅助函数。本文中使用到的函数如无特别说明，即为 Hexo 的辅助函数。<br>文章摘录</p><p>由于首页显示文章内容时使用的是 post.content，即文章的全部内容。所以首页会显示每一篇文章的内容，实际上我们并不想在首页显示那么多内容，只想显示文章的摘录。</p><p>Hexo 提供了 excerpt 属性来获取文章的摘录部分，不过这里需要在文章中添加一个 <span id="more"></span> 标记。添加了这个标记之后，post.excerpt 将会获取到标记之前的内容。如果没有这个标记，那么 post.excerpt 会是空的。所以我们可以把首页文章内容部分的 post.content 替换成 post.excerpt。</p><div class="post-content">  <%- post.excerpt %></div><p>添加页面样式</p><p>到目前为止，我们完成了首页的页面结构，但是并没有添加样式，所以看起来很丑。我们在 source 文件中创建一个 css 文件夹来存放样式文件。</p><p>由于 Hexo 在新建项目的时候会安装 hexo-renderer-stylus 这个插件，所以我们无需其他步骤，只需要将样式文件放到 css 文件夹中。Hexo 在生成页面的时候会将 source 中的所有文件复制到生成的 public 文件中，并且在此之前会编译 styl 为 css 文件。</p><p>在 css 文件夹中创建 style.styl，编写一些基础的样式，并把所有样式 import 到这个文件。所以最终编译之后只会有 style.css 一个文件。创建 _partial/header.styl 与 _partial/post.styl 存放页面导航以及文章的样式，并且在 style.styl 中 import 这两个文件。</p><p>_partial/header.styl:</p><p>.header {<br>  margin-top: 2em;<br>  display: flex;<br>  align-items: baseline;<br>  justify-content: space-between;</p><p>  .blog-title .logo {<br>    color: #AAA;<br>    font-size: 2em;<br>    font-family: “Comic Sans MS”,cursive,LiSu,sans-serif;<br>    text-decoration: none;<br>  }</p><p>  .menu {<br>    margin: 0;<br>    padding: 0;</p><pre><code>.menu-item &#123;  display: inline-block;  margin-right: 10px;&#125;.menu-item-link &#123;  color: #AAA;  text-decoration: none;  &amp;:hover &#123;    color: #368CCB;  &#125;&#125;</code></pre><p>  }<br>}</p><p>_partial/post.styl:</p><p>.post {<br>  margin: 1em auto;<br>  padding: 30px 50px;<br>  background-color: #fff;<br>  border: 1px solid #ddd;<br>  box-shadow: 0 0 2px #ddd;<br>}</p><p>.posts  {<br>  .post:first-child {<br>    margin-top: 0;<br>  }</p><p>  .post-title {<br>    font-size: 1.5em;</p><pre><code>.post-title-link &#123;  color: #368CCB;  text-decoration: none;&#125;</code></pre><p>  }</p><p>  .post-content {<br>    a {<br>      color: #368CCB;<br>      text-decoration: none;<br>    }<br>  }</p><p>  .post-meta {<br>    color: #BABABA;<br>  }<br>}</p><p>style.styl:</p><p>body {<br>  background-color: #F2F2F2;<br>  font-size: 1.25rem;<br>  line-height: 1.5;<br>}</p><p>.container {<br>  max-width: 960px;<br>  margin: 0 auto;<br>}</p><p>@import “_partial/header”;<br>@import “_partial/post”;</p><p>最后，我们需要把样式添加到页面中，这里使用了另外一个辅助函数 css():</p><p>layout/_partial/head.ejs</p><head>  <meta http-equiv="content-type" content="text/html; charset=utf-8">  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">  <title><%= config.title %></title>  <%- css('css/style.css') %></head><p>至此，我们会看到站点的首页是这个样子的：</p><p>Home Page</p><p>注意，这里会报错。原因是生成文章页时没有找到对应的模版，所以使用了首页的模版，但文章页并没有 page.posts 这个属性（undefined 没有 each 方法）。新建 post.ejs 即可解决，或直接跳过直到完成文章页模版。<br>添加分页</p><p>在站点的 source/_post/ 目录下存放的是我们的文章，现在我们把原本的 hello-world.md 复制黏贴 10+ 次，再查看站点首页。会发现，首页只显示了 10 篇文章。</p><p>首页显示的文章数量我们可以通过站点配置文件中的 per_page 字段来修改，但是我们不可能把所有文章都放在一页，所以我们现在来添加文章列表的分页。</p><p>新建 _partial/paginator.ejs:</p><p>&lt;% if (page.total &gt; 1){ %&gt;<br>  <nav class="page-nav"><br>    &lt;%- paginator({<br>      prev_text: “&laquo; Prev”,<br>      next_text: “Next &raquo;”<br>    }) %&gt;<br>  </nav><br>&lt;% } %&gt;</p><p>在 index.ejs 中添加这个文件的内容：</p><p>…</p></section><%- partial('_partial/paginator') %><p>这里我们使用到了另外的一个辅助函数 paginator，它能够帮助我们插入分页链接。<br>添加文章详情页</p><p>文章详情页对应的布局文件是 post.ejs，新建 post.ejs:</p><article class="post">  <div class="post-title">    <h2 class="title"><%= page.title %></h2>  </div>   <div class="post-meta">    <span class="post-time"><%- date(page.date, "YYYY-MM-DD") %></span>  </div>  <div class="post-content">    <%- page.content %>  </div></article><p>由于这里是文章的模板，所以变量 page 表示的是文章的数据，而不是首页的文章数据集合。<br>添加归档页</p><p>创建归档页使用的模板文件 archive.ejs:</p><section class="archive">  <ul class="post-archive">    <% page.posts.each(function (post) { %>      <li class="post-item">        <span class="post-date"><%= date(post.date, "YYYY-MM-DD") %></span>        <a class="post-title" href="<%- url_for(post.path) %>"><%= post.title %></a>      </li>    <% }) %>  </ul></section><%- partial('_partial/paginator') %><p>其实结构跟首页差不多，只是不显示文章内容而已。添加归档页的样式：</p><p>css/_partial/archive.styl:</p><p>.archive {<br>  margin: 1em auto;<br>  padding: 30px 50px;<br>  background-color: #fff;<br>  border: 1px solid #ddd;<br>  box-shadow: 0 0 2px #ddd;</p><p>  .post-archive {<br>    list-style: none;<br>    padding: 0;</p><pre><code>.post-item &#123;  margin: 5px 0;  .post-date &#123;    display: inline-block;    margin-right: 10px;    color: #BABABA;  &#125;  .post-title &#123;    color: #368CCB;    text-decoration: none;  &#125;&#125;</code></pre><p>  }<br>}</p><p>国际化</p><p>还记得我们一开始创建的 languages 文件夹吗？没错，它是用来添加多种语言，用于 i18n 的。站点的语言设置为站点配置文件中的 language。</p><p>当该字段为空时，默认使用的是 languages/default.yml 这个文件。那么现在我们来添加这个文件，我们决定主题的默认语言是英文：</p><p>Menu:<br>  Home: Home<br>  Archives: Archives<br>  Github: Github</p><p>Paginator:<br>  Prev: Prev<br>  Next: Next</p><p>目前我们需要主题根据选择的语言自动修改的有上面这些，接着我们需要修改 header.ejs 与 paginator.ejs 这两个文件：</p><p>_partial/header.ejs</p><header class="header">  <div class="blog-title">    <a href="<%- url_for() %>" class="logo"><%= config.title %></a>  </div>  <nav class="navbar">    <ul class="menu">      <% for (name in theme.menu) { %>        <li class="menu-item">          <a href="<%- url_for(theme.menu[name]) %>" class="menu-item-link"><%- __('Menu.' + name) %></a>        </li>      <% } %>    </ul>  </nav></header><p>_partial/paginator.ejs:</p><p>&lt;% if (page.total &gt; 1){ %&gt;<br>  <nav class="page-nav"><br>    &lt;%- paginator({<br>      prev_text: “&laquo;” + __(‘Paginator.Prev’),<br>      next_text: __(‘Paginator.Next’) + “&raquo;”<br>    }) %&gt;<br>  </nav><br>&lt;% } %&gt;</p><p>修改之后其实与之前相比没有什么变化，起码看起来是。现在我们添加一个中文的文件：</p><p>languages/zh-CN.yml</p><p>Menu:<br>  Home: 首页<br>  Archives: 归档<br>  Github: 交友</p><p>Paginator:<br>  Prev: 上一页<br>  Next: 下一页</p><p>然后我们将站点配置文件中的 language 字段修改为 zh-CN（与 zh-CN.yml 文件名相同）。再次访问站点之后就会发现导航与分页部分的文字变成了中文。<br>最后总结</p><p>如果你有耐心看我废话了这么多的话，恭喜你，你应该对怎么去写一个 Hexo 主题有了一定的了解。其实说白了，Hexo 就是把那些 Markdown 文件按照不同的布局模板，填上对应的数据生成 HTML 页面，复制 source 中的到生成的 public 文件夹中，中间过程会把需要编译的 stylus/less/sass 等文件编译。</p><p>本文并没有提及有关页面 JavaScript 的部分，实际上与写 CSS 样式相同。在 source/js 中写 JavaScript 脚本，然后在模板中引入即可。</p><p>感谢阅读，希望对你有所帮助。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;从零开始制作 Hexo 主题&lt;br&gt;Friday, December 16, 2016&lt;br&gt;写在前面&lt;/p&gt;
+&lt;p&gt;本文将会从零开始开发一个简单的博客主题。样式主要参考 Hexo theme 中的 Noise 主题。&lt;/p&gt;
+&lt;p&gt;开始之前你需要了解：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;模板引擎
+CSS预处理器
+Hexo 文档
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;本文使用的模板引擎为 ejs，使用的 CSS 预处理器为 stylus。这也是 hexo 项目预装了的 render 插件，如果想使用其他模板引擎或者其他 CSS 预处理器，可以安装相对应的 render 插件。例如我的 Even 主题使用的是 Swig 与 SCSS。&lt;/p&gt;
+&lt;p&gt;本文的代码： theme-example 。&lt;br&gt;目录结构&lt;/p&gt;
+&lt;p&gt;主题目录结构以自带的 landscape 主题为例：&lt;/p&gt;
+&lt;p&gt;.&lt;br&gt;├── languages  语言文件，用于国际化&lt;br&gt;├── layout     页面模板文件&lt;br&gt;├── scripts    Hexo 脚本&lt;br&gt;└── source     主题资源文件，包括页面样式，脚本，字体等&lt;/p&gt;
+&lt;p&gt;我们在 themes 中新建 theme-example 文件夹，然后在 theme-example 中按照 landscape 主题的目录结构新建 languages，layout，scripts 与 source 文件夹。&lt;br&gt;创建布局模板&lt;/p&gt;
+&lt;p&gt;在 layout 中创建 index.ejs 文件，首页将会使用该布局模板生成 HTML 文件。&lt;/p&gt;
+&lt;p&gt;layout/index.ejs:&lt;/p&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+    &lt;meta content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0&quot; name=&quot;viewport&quot;&gt;
+    &lt;title&gt;Home&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello Word&lt;/h1&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+&lt;p&gt;修改站点配置文件中的主题配置，使用我们刚刚创建的 theme-example 主题：&lt;/p&gt;
+&lt;h1 id=&quot;Extensions&quot;&gt;&lt;a href=&quot;#Extensions&quot; class=&quot;headerlink&quot; title=&quot;Extensions&quot;&gt;&lt;/a&gt;Extensions&lt;/h1&gt;&lt;h2 id=&quot;Plugins-https-hexo-io-plugins&quot;&gt;&lt;a href=&quot;#Plugins-https-hexo-io-plugins&quot; class=&quot;headerlink&quot; title=&quot;Plugins: https://hexo.io/plugins/&quot;&gt;&lt;/a&gt;Plugins: &lt;a href=&quot;https://hexo.io/plugins/&quot;&gt;https://hexo.io/plugins/&lt;/a&gt;&lt;/h2&gt;&lt;h2 id=&quot;Themes-https-hexo-io-themes&quot;&gt;&lt;a href=&quot;#Themes-https-hexo-io-themes&quot; class=&quot;headerlink&quot; title=&quot;Themes: https://hexo.io/themes/&quot;&gt;&lt;/a&gt;Themes: &lt;a href=&quot;https://hexo.io/themes/&quot;&gt;https://hexo.io/themes/&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;theme: theme-example&lt;/p&gt;
+&lt;p&gt;运行 hexo server –debug 以 debug 模式开启 Hexo 本地服务器预览，访问 &lt;a href=&quot;http://localhost:4000/%E3%80%82&quot;&gt;http://localhost:4000/。&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hello World&lt;/p&gt;
+&lt;p&gt;添加页面导航&lt;/p&gt;
+&lt;p&gt;现在我们需要在页面中添加导航，由于导航不单单会在首页出现，所以我们在 layout 中创建共用的布局文件 layout.ejs， 同时创建 _partial/head.ejs 保存 HTML 的 head 以及创建 _partial/header.ejs 文件，编写页面导航部分。&lt;/p&gt;
+&lt;p&gt;layout/layout.ejs:&lt;/p&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;%- partial(&#39;_partial/head&#39;) %&gt;
+  &lt;body&gt;
+    &lt;%- partial(&#39;_partial/header&#39;) %&gt;
+    &lt;main class=&quot;main&quot;&gt;
+      &lt;%- body %&gt;
+    &lt;/main&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+
+&lt;p&gt;layout.ejs 文件通过 partial() 函数来包含其他文件，使得我们能够更好的组织代码。详见 Templates | Hexo。&lt;/p&gt;
+&lt;p&gt;layout/_partial/head.ejs:&lt;/p&gt;
+&lt;head&gt;
+  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+  &lt;meta content=&quot;width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0&quot; name=&quot;viewport&quot;&gt;
+  &lt;title&gt;&lt;%= config.title %&gt;&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;p&gt;这里使用了 config 变量，该变量包含的是站点配置（即站点根目录下 _config.yml 中的配置）。除此之外，Hexo 还提供了许多变量可在模板中使用，详见 Variables | Hexo。&lt;/p&gt;
+&lt;p&gt;layout/_partial/header.ejs:&lt;/p&gt;
+&lt;header class=&quot;header&quot;&gt;
+  &lt;div class=&quot;blog-title&quot;&gt;
+    &lt;a href=&quot;&lt;%- url_for() %&gt;&quot; class=&quot;logo&quot;&gt;&lt;%= config.title %&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;nav class=&quot;navbar&quot;&gt;
+    &lt;ul class=&quot;menu&quot;&gt;
+      &lt;li class=&quot;menu-item&quot;&gt;
+        &lt;a href=&quot;/&quot; class=&quot;menu-item-link&quot;&gt;Home&lt;/a&gt;
+      &lt;/li&gt;
+      &lt;li class=&quot;menu-item&quot;&gt;
+        &lt;a href=&quot;/archives&quot; class=&quot;menu-item-link&quot;&gt;Archive&lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;p&gt;接着我们清空 index.ejs 中的内容，并添加 &lt;h2&gt;Hello World&lt;/h2&gt;。在 layout 目录下的 index.ejs 会自动继承 layout.ejs，并将其中的内容填入 &amp;lt;%- body %&amp;gt; 的位置。我们将得到一个有导航菜单的 Hello World 页面。&lt;/p&gt;
+&lt;p&gt;Index&lt;/p&gt;
+&lt;p&gt;添加主题配置文件&lt;/p&gt;
+&lt;p&gt;实际上我们需要让导航菜单根据我们的需要显示不同的项，上面这种写法不方便修改。所以我们会在主题的配置文件中添加导航菜单的配置。在 thmem-demo 下新建主题的配置文件 _config.yml，在其中添加需要配置的字段。然后可以通过 theme 这个变量来拿到该配置文件中的配置。&lt;/p&gt;
+&lt;p&gt;theme-example/_config.yml:&lt;/p&gt;
+&lt;p&gt;menu:&lt;br&gt;  Home: /&lt;br&gt;  Archives: /archives&lt;/p&gt;
+&lt;p&gt;这样我们就可以在 header.ejs 中使用 theme.menu 获取到导航菜单的设置。将 header.ejs 修改为：&lt;/p&gt;
+&lt;header class=&quot;header&quot;&gt;
+  &lt;div class=&quot;blog-title&quot;&gt;
+    &lt;a href=&quot;&lt;%- url_for() %&gt;&quot; class=&quot;logo&quot;&gt;&lt;%= config.title %&gt;&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;nav class=&quot;navbar&quot;&gt;
+    &lt;ul class=&quot;menu&quot;&gt;
+      &lt;% for (name in theme.menu) { %&gt;
+        &lt;li class=&quot;menu-item&quot;&gt;
+          &lt;a href=&quot;&lt;%- url_for(theme.menu[name]) %&gt;&quot; class=&quot;menu-item-link&quot;&gt;&lt;%= name %&gt;&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;% } %&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;p&gt;当需要在导航中添加链接的时候就可以在配置文件中直接添加，例如添加 Github 的链接：&lt;/p&gt;
+&lt;p&gt;menu:&lt;br&gt;  Home: /&lt;br&gt;  Archives: /archives&lt;br&gt;  Github: &lt;a href=&quot;https://github.com/ahonn&quot;&gt;https://github.com/ahonn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;除此之外还可以添加其他需要的配置，例如 RSS，评论等等。&lt;br&gt;添加首页文章列表&lt;/p&gt;
+&lt;p&gt;接着我们完善首页的模板，使其能够显示文章列表。前面已经说过 Hexo 提供了各种有用的变量，在这里将会使用到 page 这个变量。page 会根据不同的页面拥有不同的属性。具体有什么属性，可以获取到哪些数据可以查看这里。&lt;/p&gt;
+&lt;p&gt;那么这里我们会使用 page 变量的 posts 属性拿到文章数据的集合。编辑 index.ejs 文件：&lt;/p&gt;
+&lt;section class=&quot;posts&quot;&gt;
+  &lt;% page.posts.each(function (post) { %&gt;
+    &lt;article class=&quot;post&quot;&gt;
+      &lt;div class=&quot;post-title&quot;&gt;
+        &lt;a class=&quot;post-title-link&quot; href=&quot;&lt;%- url_for(post.path) %&gt;&quot;&gt;&lt;%= post.title %&gt;&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;post-content&quot;&gt;
+        &lt;%- post.content %&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;post-meta&quot;&gt;
+        &lt;span class=&quot;post-time&quot;&gt;&lt;%- date(post.date, &quot;YYYY-MM-DD&quot;) %&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/article&gt;
+  &lt;% }) %&gt;
+&lt;/section&gt;
+
+&lt;p&gt;从 page.posts 中获取单篇文章的数据，并获取文章的标题，内容等数据填充到模板中。处理文章创建时间的时候使用了 date() 函数，这是 Hexo 提供的时间处理的辅助函数。本文中使用到的函数如无特别说明，即为 Hexo 的辅助函数。&lt;br&gt;文章摘录&lt;/p&gt;
+&lt;p&gt;由于首页显示文章内容时使用的是 post.content，即文章的全部内容。所以首页会显示每一篇文章的内容，实际上我们并不想在首页显示那么多内容，只想显示文章的摘录。&lt;/p&gt;
+&lt;p&gt;Hexo 提供了 excerpt 属性来获取文章的摘录部分，不过这里需要在文章中添加一个</summary>
+    
+    
+    
+    
+    <category term="博客 MD 语法" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2-MD-%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何在博客中插入图片</title>
+    <link href="http://example.com/2021/09/25/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/"/>
+    <id>http://example.com/2021/09/25/%E5%A6%82%E4%BD%95%E5%9C%A8%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/</id>
+    <published>2021-09-25T08:38:00.000Z</published>
+    <updated>2021-09-25T09:05:09.507Z</updated>
+    
+    <content type="html"><![CDATA[<p>##前言<br>Hexo有多种图片插入方式，可以将图片存放在本地引用或者将图片放在CDN上引用。</p><p>#正文<br>##本地引用–绝对路径<br>当Hexo项目中只用到少量图片时，可以将图片统一放在source/images文件夹中，通过markdown语法访问它们。</p><p>source/images/image.jpg</p><p><img src="/images/Test_image1.jpg" alt="(测试图片)"></p><p>##本地引用–相对路径<br>图片除了可以放在统一的images文件夹中，还可以放在文章自己的目录中。文章的目录可以通过配置_config.yml来生成。<br>将_config.yml文件中的配置项post_asset_folder设为true后，执行命令$ hexo new post_name，在source/_posts中会生成<br>文章post_name.md和同名文件夹post_name。将图片资源放在post_name中，文章就可以使用相对路径引用图片资源了。</p><p>_posts/post_name/image.jpg</p><p><img src="/_posts/post_name/Test_image2.jpg" alt="(测试图片)"></p><p>上述是markdown的引用方式，图片只能在文章中显示，但无法在首页中正常显示。<br>如果希望图片在文章和首页中同时显示，可以使用标签插件语法。</p><p>_posts/post_name/image.jpg</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;##前言&lt;br&gt;Hexo有多种图片插入方式，可以将图片存放在本地引用或者将图片放在CDN上引用。&lt;/p&gt;
+&lt;p&gt;#正文&lt;br&gt;##本地引用–绝对路径&lt;br&gt;当Hexo项目中只用到少量图片时，可以将图片统一放在source/images文件夹中，通过markdown语法访问它</summary>
+      
+    
+    
+    
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从零开始的博客升级之路</title>
+    <link href="http://example.com/2021/09/19/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%8D%87%E7%BA%A7%E4%B9%8B%E8%B7%AF/"/>
+    <id>http://example.com/2021/09/19/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%8D%87%E7%BA%A7%E4%B9%8B%E8%B7%AF/</id>
+    <published>2021-09-19T12:00:05.000Z</published>
+    <updated>2021-09-19T11:32:53.351Z</updated>
+    
+    <content type="html"><![CDATA[<p>##前言<br>这一篇文章，会记录我从搭建网站开始的博客升级过程。</p><p>#前期的软件准备<br>####1.安装Node.js<br>这里是为了给之后博客的后端使用；<br>链接如下:<a href="https://nodejs.org/en/">https://nodejs.org/en/</a><br>安装过程就是一路默认就可以，完成之后记得使用node -v和npm -v来验证是否安装成功。<br>如果显示没有这个命令，那有可能是你的电脑里面有优先级更高的环境变量<br>环境变量的目的就是让系统能够找到程序的入口<br>以win10为例，到设置，高级设置里面，去查看有没有对应的环境变量，靠不靠前<br>没有的话，就添加path，path的内容即为.exe的系统绝对路径，有的话，调整顺序即可<br>####2.添加国内镜像源<br>这里推荐阿里的镜像源<br>对了，这里不推荐使用npm，速度太慢，可以使用cnpm,安装方法是<br>在命令框中输入npm install -g cnpm –registry=<a href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a><br>同样，安装完成之后，可以使用cnpm -v查看版本的方式验证是否成功<br>####3.安装Git<br>这个我觉得看这篇文章的人都有<br>下载链接如下:<a href="https://git-scm.com/">https://git-scm.com/</a><br>一路默认，最后记得选择Use Git from the Windows Command Prompt<br>####4.注册Github账号<br>这个网站是一个很好的学习开源项目的网站<br>其本身基于git开发，具有优秀的版本控制功能<br>在个人博客的搭建中，我们把它作为代码的托管方<br>链接如下：<a href="https://github.com/">https://github.com/</a><br>进入网页之后，按要求邮箱注册激活即可，网上也有很多教程<br>####5.安装Hexo<br>打开cmd，使用命令：cnpm install -g hexo-cli<br>等待安装即可，同样，记得校验是否成功<br>####6.测试本地博客<br>进入blog目录：cd blog<br>生成博客 初始化博客:hexo init，Linux等系统记得使用sudo<br>启动本地博客服务:hexo server<br>本地访问地址:<a href="http://localhost:4000/">http://localhost:4000/</a><br>通过这个地址，你可以访问自己网站的预览<br>至此，你的hexo运行完全正常<br>接下来，我们需要把它部署到远端<br>####7.连接Github与本地<br>首先，我们需要在github上面新建一个代码仓库，仓库名为YourGithubName.github.io<br>回到我们的命令框，在blog目录下安装git部署插件<br>命令为：cnpm install –save hexo-deployer-git<br>配置_config.yml文件：<br>具体配置内容：<br>‘’’<br>    # Deployment<br>    ## Docs: <a href="https://hexo.io/docs/deployment.html">https://hexo.io/docs/deployment.html</a><br>    deploy:<br>          type: git<br>         repo: <a href="https://github.com/YourGithubName/YourGithubName.github.io.git">https://github.com/YourGithubName/YourGithubName.github.io.git</a><br>          branch: master<br>‘’’<br>####8.写文章、发布文章<br>接下来我们回到blog目录下，以下是必用的常规命令<br>hexo new–新建文章命令<br>hexo clean–清理<br>hexo g–生成<br>hexo d–发布<br>####9.购买、绑定域名【氪金项目】<br>从这里开始，我们的博客开始自己的个性化定义<br>首先，我们肯定希望自己的网站是自己命名的，而不是github的后缀<br>所以，我们需要一个域名，即属于我们自己的网址<br>我们需要租用这个网址。最方便的方法就是上阿里云或者腾讯云上购买<br>费用一般为一年几块到几十万不等，个人推荐买便宜的<br>注册一个阿里云账号，他有全套氪金流程，不赘述了<br>关于后缀，个人推荐.com/.net/.org想要便宜的推荐.xyz/等<br>不推荐.cn（后续可能忒麻烦），也不推荐中文后缀（贵，还不正经）<br>####10.将github的网站和自己买的域名关联<br>这里我们需要将网址解析到自己的域名上，<br>我们打开阿里云的网站，搜索DNS，然后进行配置<br>注意，此时你必须先完成实名认证的校验<br>然后添加记录，类型选择CNAME，记录值为你的github网页的地址（之前那个带.io的）<br>TTL选最小的那个<br>####等待一会儿，你的个人主页就可以被访问了<br>####等我什么时候买了服务器，再更新接下来的内容</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;##前言&lt;br&gt;这一篇文章，会记录我从搭建网站开始的博客升级过程。&lt;/p&gt;
+&lt;p&gt;#前期的软件准备&lt;br&gt;####1.安装Node.js&lt;br&gt;这里是为了给之后博客的后端使用；&lt;br&gt;链接如下:&lt;a href=&quot;https://nodejs.org/en/&quot;&gt;https:/</summary>
+      
+    
+    
+    
+    
+    <category term="博客" scheme="http://example.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
